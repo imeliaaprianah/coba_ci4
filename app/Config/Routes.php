@@ -5,6 +5,6 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Admin\DashboardAdmin::index');
 
-$routes->get('/', 'Data_pelanggan::admin/data_pelanggan');
+$routes->get('/data-pelanggan-pb', 'Admin\PasangBaruAdmin::index');
