@@ -6,6 +6,6 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('admin/data_pelanggan');
+        return view('admin/form_tambah_data_pelanggan');
     }
 }

@@ -105,7 +105,7 @@
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic-1" aria-expanded="false" aria-controls="ui-basic-1">
               <span class="menu-title">Pasang Baru</span>
               <i class="menu-arrow"></i>
-              <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              <i class="mdi mdi-plus-circle menu-icon"></i>
             </a>
             <div class="collapse" id="ui-basic-1">
               <ul class="nav flex-column sub-menu">
@@ -128,8 +128,9 @@
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic-2" aria-expanded="false" aria-controls="ui-basic-2">
               <span class="menu-title">Perubahan Daya</span>
               <i class="menu-arrow"></i>
-              <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              <i class="mdi mdi-flash menu-icon"></i>
             </a>
+
             <div class="collapse" id="ui-basic-2">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
@@ -151,248 +152,167 @@
       </nav>
       <!-- partial -->
       <div class="container-fluid page-body-wrapper">
-        <!-- partial:../../partials/_sidebar.html -->
-        <!-- <nav class="sidebar sidebar-offcanvas" id="sidebar">
-          <ul class="nav">
-            <li class="nav-item nav-profile">
-              <a href="#" class="nav-link">
-                <div class="nav-profile-image">
-                  <img src="../../assets/images/faces/face1.jpg" alt="profile" />
-                  <span class="login-status online"></span>
-                  change to offline or busy as needed-->
-        <!-- </div> -->
-        <!-- <div class="nav-profile-text d-flex flex-column">
-                  <span class="font-weight-bold mb-2">David Grey. H</span>
-                  <span class="text-secondary text-small">Project Manager</span>
-                </div> -->
-        <!-- <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i> -->
-        <!-- </a>
-            </li>  -->
-        <!-- <li class="nav-item">
-              <a class="nav-link" href="../../index.html">
-                <span class="menu-title">Dashboard</span>
-                <i class="mdi mdi-home menu-icon"></i>
-              </a>
-            </li> -->
-        <!-- <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
-                <i class="menu-arrow"></i>
-                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-              </a>
-              <div class="collapse" id="ui-basic">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Dropdowns</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-                <span class="menu-title">Icons</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
-              </a>
-              <div class="collapse" id="icons">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/icons/font-awesome.html">Font Awesome</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#forms" aria-expanded="false" aria-controls="forms">
-                <span class="menu-title">Forms</span>
-                <i class="mdi mdi-format-list-bulleted menu-icon"></i>
-              </a>
-              <div class="collapse" id="forms">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/forms/basic_elements.html">Form Elements</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
-                <span class="menu-title">Charts</span>
-                <i class="mdi mdi-chart-bar menu-icon"></i>
-              </a>
-              <div class="collapse" id="charts">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/charts/chartjs.html">ChartJs</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-                <span class="menu-title">Tables</span>
-                <i class="mdi mdi-table-large menu-icon"></i>
-              </a>
-              <div class="collapse" id="tables">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/tables/basic-table.html">Basic table</a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-                <span class="menu-title">User Pages</span>
-                <i class="menu-arrow"></i>
-                <i class="mdi mdi-lock menu-icon"></i>
-              </a>
-              <div class="collapse" id="auth">
-                <ul class="nav flex-column sub-menu">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/samples/blank-page.html"> Blank Page </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/samples/login.html"> Login </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/samples/register.html"> Register </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/samples/error-404.html"> 404 </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../../pages/samples/error-500.html"> 500 </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../../docs/documentation.html" target="_blank">
-                <span class="menu-title">Documentation</span>
-                <i class="mdi mdi-file-document-box menu-icon"></i>
-              </a>
-            </li>
-          </ul>
-        </nav> -->
-        <!-- partial -->
-        <!-- <div class="main-panel">
-          <div class="content-wrapper"> -->
-        <!-- <div class="page-header">
-              <h3 class="page-title"> Form elements </h3>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="#">Forms</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Form elements</li>
-                </ol>
-              </nav>
-            </div> -->
-        <!-- <div class="row">
-              <div class="col-md-6 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Horizontal Form</h4>
-                    <p class="card-description"> Horizontal form layout </p>
-                    <form class="forms-sample">
-                      <div class="form-group row">
-                        <label for="exampleInputUsername2" class="col-sm-3 col-form-label">Email</label>
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputUsername2" placeholder="Username">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputEmail2" class="col-sm-3 col-form-label">Email</label>
-                        <div class="col-sm-9">
-                          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputMobile" class="col-sm-3 col-form-label">Mobile</label>
-                        <div class="col-sm-9">
-                          <input type="text" class="form-control" id="exampleInputMobile" placeholder="Mobile number">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputPassword2" class="col-sm-3 col-form-label">Password</label>
-                        <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
-                        </div>
-                      </div>
-                      <div class="form-group row">
-                        <label for="exampleInputConfirmPassword2" class="col-sm-3 col-form-label">Re Password</label>
-                        <div class="col-sm-9">
-                          <input type="password" class="form-control" id="exampleInputConfirmPassword2" placeholder="Password">
-                        </div>
-                      </div>
-                      <div class="form-check form-check-flat form-check-primary">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input"> Remember me </label>
-                      </div>
-                      <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
-                      <button class="btn btn-light">Cancel</button>
-                    </form>
-                  </div>
-                </div>
-              </div> -->
-        <div class="col-12 grid-margin stretch-card">
+        <div class="col-lg-12 grid-margin stretch-card">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Data Pelanggan</h4>
-              <p class="card-description"></p>
-              <form class="forms-sample">
-                <div class="form-group">
-                  <label for="exampleInputName1">Nama Pelanggan</label>
-                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Nama Pelanggan">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputEmail3">Nama Pemohon</label>
-                  <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Nama Pemohon">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword4">No Handphone</label>
-                  <input type="password" class="form-control" id="exampleInputPassword4" placeholder="No Handphone">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword4">Kartu Tanda Pemilik (KTP)</label>
-                  <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Kartu Tanda Pemilik (KTP)">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword4">NPWP</label>
-                  <input type="password" class="form-control" id="exampleInputPassword4" placeholder="NPWP">
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputCity1">Alamat Pasang Baru</label>
-                  <input type="text" class="form-control" id="exampleInputCity1" placeholder="Alamat Pasang Baru">
-                </div>
-                <div class="form-group">
-                  <label for="exampleSelectGender">Gender</label>
-                  <select class="form-select" id="exampleSelectGender">
-                    <option>Male</option>
-                    <option>Female</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label>File upload</label>
-                  <input type="file" name="img[]" class="file-upload-default">
-                  <div class="input-group col-xs-12">
-                    <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
-                    <span class="input-group-append">
-                      <button class="file-upload-browse btn btn-gradient-primary py-3" type="button">Upload</button>
-                    </span>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="exampleTextarea1">Textarea</label>
-                  <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
-                </div>
-                <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
-                <button class="btn btn-light">Cancel</button>
-              </form>
+              </p>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th> No </th>
+                    <th> Nama Pelanggan </th>
+                    <th> Nama Pemohon </th>
+                    <th> Surat Mohon Pasang Baru </th>
+                    <th> No HP </th>
+                    <th> KTP </th>
+                    <th> NPWP </th>
+                    <th> Alamat Pasang Baru </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> 1 </td>
+                    <td> Herman Beck </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $ 77.99 </td>
+                    <td> May 15, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 2 </td>
+                    <td> Messsy Adam </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $245.30 </td>
+                    <td> July 1, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 3 </td>
+                    <td> John Richards </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $138.00 </td>
+                    <td> Apr 12, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 4 </td>
+                    <td> Peter Meggik </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $ 77.99 </td>
+                    <td> May 15, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 5 </td>
+                    <td> Edward </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $ 160.25 </td>
+                    <td> May 03, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 6 </td>
+                    <td> John Doe </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $ 123.21 </td>
+                    <td> April 05, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 7 </td>
+                    <td> Henry Tom </td>
+                    <td>
+                      <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </td>
+                    <td> $ 150.00 </td>
+                    <td> June 16, 2015 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Inverse table</h4>
+              <p class="card-description"> Add class <code>.table-dark</code>
+              </p>
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th> # </th>
+                    <th> First name </th>
+                    <th> Amount </th>
+                    <th> Deadline </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td> 1 </td>
+                    <td> Herman Beck </td>
+                    <td> $ 77.99 </td>
+                    <td> May 15, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 2 </td>
+                    <td> Messsy Adam </td>
+                    <td> $245.30 </td>
+                    <td> July 1, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 3 </td>
+                    <td> John Richards </td>
+                    <td> $138.00 </td>
+                    <td> Apr 12, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 4 </td>
+                    <td> Peter Meggik </td>
+                    <td> $ 77.99 </td>
+                    <td> May 15, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 5 </td>
+                    <td> Edward </td>
+                    <td> $ 160.25 </td>
+                    <td> May 03, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 6 </td>
+                    <td> John Doe </td>
+                    <td> $ 123.21 </td>
+                    <td> April 05, 2015 </td>
+                  </tr>
+                  <tr>
+                    <td> 7 </td>
+                    <td> Henry Tom </td>
+                    <td> $ 150.00 </td>
+                    <td> June 16, 2015 </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
