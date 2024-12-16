@@ -8,19 +8,23 @@
         <div class="col-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Data Pelanggan Pasang Baru</h4>
+                    <h4 class="card-title">Data Pelanggan Perubahan Daya</h4>
                     <p class="card-description"></p>
                     <form class="forms-sample">
                         <div class="form-group">
-                            <label for="exampleInputName1">Nama Pelanggan</label>
-                            <input type="text" class="form-control" id="exampleInputName1" placeholder="Nama Pelanggan">
+                            <label for="exampleInputPassword4">Id Pelanggan</label>
+                            <input type="password" class="form-control" id="exampleInputPassword4" placeholder="No Handphone">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail3">Nama Pemohon</label>
-                            <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Nama Pemohon">
+                            <label for="exampleInputEmail3">Alamat</label>
+                            <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Nama Pemohon">
                         </div>
                         <div class="form-group">
-                            <label>Surat Mohon Pasang baru</label>
+                            <label for="exampleInputEmail3">Nama Pelanggan</label>
+                            <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Nama Pemohon">
+                        </div>
+                        <div class="form-group">
+                            <label>Surat Mohon Perubahan Daya</label>
                             <input type="file" name="img[]" class="file-upload-default">
                             <div class="input-group col-xs-12">
                                 <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
@@ -40,10 +44,6 @@
                         <div class="form-group">
                             <label for="exampleInputPassword4">NPWP</label>
                             <input type="password" class="form-control" id="exampleInputPassword4" placeholder="NPWP">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputCity1">Alamat Pasang Baru</label>
-                            <input type="text" class="form-control" id="exampleInputCity1" placeholder="Alamat Pasang Baru">
                         </div>
                         <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
                         <button class="btn btn-light">Cancel</button>

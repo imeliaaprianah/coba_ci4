@@ -45,6 +45,16 @@
                             <label for="exampleInputCity1">Alamat Pasang Baru</label>
                             <input type="text" class="form-control" id="exampleInputCity1" placeholder="Alamat Pasang Baru">
                         </div>
+                        <div class="form-group">
+                            <label>Dokumen excel</label>
+                            <input type="file" name="img[]" class="file-upload-default">
+                            <div class="input-group col-xs-12">
+                                <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                                <span class="input-group-append">
+                                    <button class="file-upload-browse btn btn-gradient-primary py-3" type="button">Upload</button>
+                                </span>
+                            </div>
+                        </div>
                         <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
                         <button class="btn btn-light">Cancel</button>
                     </form>
