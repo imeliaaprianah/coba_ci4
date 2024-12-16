@@ -41,10 +41,10 @@
             <a class="nav-link" href="/data-pelanggan-pb">Data pelanggan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/ui-features/typography.html">Tindak Lanjut</a>
+            <a class="nav-link" href="/tindak-lanjut-pb">Tindak Lanjut</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/ui-features/typography.html">Selesai</a>
+            <a class="nav-link" href="/selesai-pb">Selesai</a>
           </li>
         </ul>
       </div>
@@ -65,10 +65,10 @@
             <a class="nav-link" href="data-pelanggan-pd">Data pelanggan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/ui-features/typography.html">Tindak Lanjut</a>
+            <a class="nav-link" href="/tindak-lanjut-pd">Tindak Lanjut</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/ui-features/typography.html">Selesai</a>
+            <a class="nav-link" href="/selesai-pd">Selesai</a>
           </li>
         </ul>
       </div>
