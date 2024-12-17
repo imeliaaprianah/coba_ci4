@@ -8,7 +8,7 @@
             <div class="card-body">
                 <h4 class="card-title">Data Pelanggan Pasang Baru</h4>
                 <p class="card-description">Silakan masukkan data pelanggan dengan lengkap.</p>
-                <form class="forms-sample" method="post" action="/simpan_data" enctype="multipart/form-data">
+                <form class="forms-sample" method="post" action="/simpan-data-pb" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
 
                     <div class="form-group">
@@ -23,7 +23,7 @@
 
                     <div class="form-group">
                         <label>Surat Mohon Pasang Baru</label>
-                        <input type="file" name="surat_pasang_baru" class="file-upload-default" required>
+                        <input type="file" name="surat_mohon_pasang_baru" class="file-upload-default" required>
                         <div class="input-group col-xs-12">
                             <input type="text" class="form-control file-upload-info" disabled placeholder="Unggah Surat Permohonan">
                             <span class="input-group-append">
@@ -34,7 +34,7 @@
 
                     <div class="form-group">
                         <label for="noHp">No Handphone</label>
-                        <input type="text" class="form-control" id="noHp" name="no_hp" placeholder="No Handphone" required>
+                        <input type="text" class="form-control" id="noHp" name="no_handphone" placeholder="No Handphone" required>
                     </div>
 
                     <div class="form-group">
@@ -49,7 +49,7 @@
 
                     <div class="form-group">
                         <label for="alamatPasangBaru">Alamat Pasang Baru</label>
-                        <textarea class="form-control" id="alamatPasangBaru" name="alamat" rows="3" placeholder="Alamat Pasang Baru" required></textarea>
+                        <textarea class="form-control" id="alamatPasangBaru" name="alamat_pasang_baru" rows="3" placeholder="Alamat Pasang Baru" required></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
