@@ -15,12 +15,12 @@ class PasangBaruAdmin extends BaseController
         return view('admin/data_pelanggan_pb');
     }
 
-    public function tambahData()
+    public function tambah()
     {
         return view('admin/tambah_data_pelanggan_pb');
     }
 
-    public function simpanData()
+    public function simpan()
     {
         // Validasi input
         $validation = $this->validate([

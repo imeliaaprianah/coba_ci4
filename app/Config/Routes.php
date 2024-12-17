@@ -10,9 +10,11 @@ $routes->get('/', 'Admin\DashboardAdmin::index');
 // Pasang Baru
 $routes->get('/dashboard-pb', 'Admin\DashboardPB::index');
 $routes->get('/data-pelanggan-pb', 'Admin\PasangBaruAdmin::index');
-$routes->get('/tambah-data-pb', 'Admin\PasangBaruAdmin::index');
+$routes->get('/tambah-data-pb', 'Admin\PasangBaruAdmin::tambah');
+$routes->post('/simpan-data-pb', 'Admin\PasangBaruAdmin::simpan');
 $routes->get('/tindak-lanjut-pb', 'Admin\TindakLanjutAdminPB::index');
 $routes->get('/selesai-pb', 'Admin\SelesaiPB::index');
+
 
 // Perubahan Daya
 $routes->get('/dashboard-pd', 'Admin\DashboardPD::index');

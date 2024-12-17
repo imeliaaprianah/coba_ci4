@@ -10,7 +10,7 @@
                 <p class="card-description">Silakan masukkan data pelanggan dengan lengkap.</p>
                 <form class="forms-sample" method="post" action="/simpan_data" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
-                    
+
                     <div class="form-group">
                         <label for="namaPelanggan">Nama Pelanggan</label>
                         <input type="text" class="form-control" id="namaPelanggan" name="nama_pelanggan" placeholder="Nama Pelanggan" required>
