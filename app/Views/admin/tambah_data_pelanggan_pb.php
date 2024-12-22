@@ -12,29 +12,29 @@
                     <?= csrf_field(); ?>
 
                     <div class="form-group">
-                        <label for="namaPelanggan">Nama Pelanggan</label>
-                        <input type="text" class="form-control" id="namaPelanggan" name="nama_pelanggan" placeholder="Nama Pelanggan" required>
+                        <label for="nama_pelanggan">Nama Pelanggan</label>
+                        <input type="text" class="form-control" id="nama_pelanggan" name="nama_pelanggan" placeholder="Nama Pelanggan" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="namaPemohon">Nama Pemohon</label>
-                        <input type="text" class="form-control" id="namaPemohon" name="nama_pemohon" placeholder="Nama Pemohon" required>
+                        <label for="nama_pemohon">Nama Pemohon</label>
+                        <input type="text" class="form-control" id="nama_pemohon" name="nama_pemohon" placeholder="Nama Pemohon" required>
                     </div>
 
                     <div class="form-group">
                         <label>Surat Mohon Pasang Baru</label>
                         <input type="file" name="surat_mohon_pasang_baru" class="file-upload-default" required>
                         <div class="input-group col-xs-12">
-                            <input type="text" class="form-control file-upload-info" disabled placeholder="Unggah Surat Permohonan">
+                            <input type="text" class="form-control file-upload-info" disabled placeholder="Unggah Surat Mohon Pasang Baru">
                             <span class="input-group-append">
-                                <button class="file-upload-browse btn btn-gradient-primary py-3" type="button">Unggah</button>
+                                <button class="file-upload-browse btn btn-gradient-info py-3" style="color: black;" type="button">Unggah</button>
                             </span>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="noHp">No Handphone</label>
-                        <input type="text" class="form-control" id="noHp" name="no_handphone" placeholder="No Handphone" required>
+                        <label for="no_handphone">No Handphone</label>
+                        <input type="text" class="form-control" id="no_handphone" name="no_handphone" placeholder="No Handphone" required>
                     </div>
 
                     <div class="form-group">
@@ -48,12 +48,13 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="alamatPasangBaru">Alamat Pasang Baru</label>
-                        <textarea class="form-control" id="alamatPasangBaru" name="alamat_pasang_baru" rows="3" placeholder="Alamat Pasang Baru" required></textarea>
+                        <label for="alamat_pasang_baru">Alamat Pasang Baru</label>
+                        <textarea class="form-control" id="alamat_pasang_baru" name="alamat_pasang_baru" rows="3" placeholder="Alamat Pasang Baru" required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-gradient-primary me-2">Submit</button>
-                    <button type="reset" class="btn btn-light">Cancel</button>
+                    <a href="/data-pelanggan-pb" class="btn btn-gradient-info me-2" style="color: black;">Submit</a>
+                    <a href="/data-pelanggan-pb" class="btn btn-light">Cancel</a>
+
                 </form>
             </div>
         </div>

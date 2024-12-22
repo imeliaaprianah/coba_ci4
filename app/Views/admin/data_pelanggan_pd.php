@@ -5,7 +5,7 @@
   <div class="card">
     <div class="card-body">
       <h4 class="card-title">Data Pelanggan Perubahan Daya</h4>
-      <a href="/tambah_data_pd" class="btn btn-inverse-info mb-3" style="color: black;">
+      <a href="/tambah-data-pd" class="btn btn-inverse-info mb-3" style="color: black;">
         Tambah Data
       </a>
       <table class="table table-bordered">
@@ -13,11 +13,13 @@
           <tr>
             <th> No </th>
             <th> Alamat </th>
+            <th> Id Pelanggan </th>
             <th> Nama Pelanggan </th>
-            <th> Surat Mohon Perubahan Daya </th>
+            <!-- <th> Surat Mohon Perubahan Daya </th> -->
             <th> No HP </th>
-            <th> KTP </th>
-            <th> NPWP </th>
+            <!-- <th> KTP </th>
+            <th> NPWP </th> -->
+            <th> Detail </th>
             <th> Aksi </th>
           </tr>
         </thead>

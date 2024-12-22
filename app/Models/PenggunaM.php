@@ -4,22 +4,18 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PasangBaruM extends Model
+class PenggunaM extends Model
 {
-    protected $table            = 'data_pelanggan_pb';
-    protected $primaryKey       = 'id_data_pelanggan_pb';
+    protected $table            = 'akun';
+    protected $primaryKey       = 'id_akun';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'nama_pelanggan',
-        'nama_pemohon',
-        'surat_mohon_pasang_baru',
-        'no_hp',
-        'ktp',
-        'npwp',
-        'alamat_pasang_baru'
+        'username',
+        'password',
+        'level'
     ];
 
     protected bool $allowEmptyInserts = false;
@@ -52,4 +48,18 @@ class PasangBaruM extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
+
+    public function getdata()
+    {
+        $query = $this->db->query("SELECT * FROM akun ORDER BY id_akun ASC");
+
+        return $query->getResult();
+    }
+
+    public function simpan($table, $data)
+    {
+        $this->db->table($table)->insert($data);
+
+        return true;
+    }
 }

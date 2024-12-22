@@ -6,13 +6,21 @@ use CodeIgniter\Model;
 
 class PerubahanDayaM extends Model
 {
-    protected $table            = 'perubahan_daya';
-    protected $primaryKey       = 'id_perubahan_daya';
+    protected $table            = 'data_pelanggan_pb';
+    protected $primaryKey       = 'id_data_pelanggan_pd';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = [
+        'idpel',
+        'alamat',
+        'nama_pelanggan',
+        'no_handphone',
+        'ktp',
+        'npwp',
+        'surat_mohon_perubahan_daya',
+    ];
 
     protected bool $allowEmptyInserts = false;
     protected bool $updateOnlyChanged = true;
